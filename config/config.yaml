@@ -99,7 +99,10 @@ platforms:
     - id: "zhihu"
       name: "知乎"
       expected_domain: "zhihu.com"
-
+    - id: "github-trending"
+      name: "GitHub Trending"
+      params:
+        since: "weekly"  # ✅ 重点：weekly=周榜；可选 daily / monthly
 
 
 # ===============================================================
